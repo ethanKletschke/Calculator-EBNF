@@ -1,6 +1,6 @@
 # Calculator EBNF Specification
 
-An Extended Backus-Naur Form (EBNF) specification for calculations and
+An ISO Extended Backus-Naur Form (EBNF) specification for calculations and
 assignment expressions.
 
 - Author: Ethan Kletschke
