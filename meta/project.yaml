@@ -1,0 +1,21 @@
+project-meta:
+  project-name: Calculator EBNF
+  date-started: 2026-03-16
+  last-updated: 2026-03-16
+  languages:
+    - Extended Backus-Naur Form
+  status: Experimental
+  license: MIT
+  version: 0.0.1
+
+build:
+  dev-environments:
+    - Ubuntu (WSL2)
+  no-build: true
+
+team:
+  author: Ethan Kletschke
+  contributors:
+    - name: Ethan Kletschke
+      role: Author and owner
+      github-username: ethanKletschke
