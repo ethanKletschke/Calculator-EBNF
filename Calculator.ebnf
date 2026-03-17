@@ -28,3 +28,6 @@ sign = "+" | "-";
 
 (* Statement separator *)
 statement_separator = ";";
+
+(* Whitespace *)
+whitespace = " " | "\t" | "\n";
