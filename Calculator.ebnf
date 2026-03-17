@@ -1,5 +1,11 @@
 (* An all-uppercase or all-lowercase variable name *)
-variable_name = up_alpha, { up_alpha } | low_alpha, { low_alpha };
+variable_name = all_upper_name | all_lower_name;
+
+(* An all-upprcase variable name *)
+all_upper_name = up_alpha, { up_alpha };
+
+(* An all-lowercase variable name *)
+all_lower_name = low_alpha, { low_alpha };
 
 (* Uppercase alphabet, for use in variable names *)
 up_alpha = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I"
