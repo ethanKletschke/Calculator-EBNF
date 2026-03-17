@@ -16,3 +16,4 @@ The EBNF file currently defines:
 - The digits 0-9
 - Signs (`+` and `-`)
 - Integers with optional signs
+- Simple assignment of values to variables (RHS assigned to LHS, or `lhs = rhs`)

@@ -1,3 +1,12 @@
+(* A full assignment statement. E.g., "x = 6;" *)
+assignment_statement = lhs, assignment_op, rhs, statement_separator;
+
+(* Right-hand side of the assignment *)
+rhs = integer | variable_name;
+
+(* Left-hand side of the assignment *)
+lhs = variable_name;
+
 (* An all-uppercase or all-lowercase variable name *)
 variable_name = all_upper_name | all_lower_name;
 
