@@ -38,8 +38,11 @@ sign = "+" | "-";
 (* Statement separator *)
 statement_separator = { whitespace }, ";", { whitespace };
 
-(* TODO -> Define arithmetic operators *)
 (* Operators *)
+plus_op = { whitespace }, "+", { whitespace };
+minus_op = { whitespace }, "-", { whitespace };
+divide_op = { whitespace }, "/", { whitespace };
+multiply_op = { whitespace }, "*", { whitespace };
 assignment_op = { whitespace }, "=", { whitespace };
 
 (* Whitespace *)
