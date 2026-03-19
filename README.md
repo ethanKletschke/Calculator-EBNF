@@ -21,5 +21,7 @@ E-Calc currently defines:
 
 ## Limitations
 
-- E-Calc only supports single binary operations (for now)
+E-calc is intentionally incredibly simple. As such:
+
 - E-Calc has no parentheses or BODMAS precedence (yet)
+- E-calc is not a full language spec
