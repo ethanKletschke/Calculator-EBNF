@@ -55,7 +55,8 @@ sign = "+" | "-";
 statement_separator = { whitespace }, ";", { whitespace };
 
 (* Operators *)
-arithmetic_operator = plus_op | minus_op | divide_op | multiply_op;
+arithmetic_operator = plus_op | minus_op | divide_op | multiply_op | exp_op;
+exp_op = { whitespace }, "^", { whitespace };
 plus_op = { whitespace }, "+", { whitespace };
 minus_op = { whitespace }, "-", { whitespace };
 divide_op = { whitespace }, "/", { whitespace };
