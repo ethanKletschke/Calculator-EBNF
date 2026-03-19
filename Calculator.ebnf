@@ -1,3 +1,6 @@
+(* Allow for zero or more assignment statements in a single file *)
+program = { assignment_statement };
+
 (* A full assignment statement. E.g., "x = 6;" *)
 assignment_statement = lhs, assignment_op, rhs, statement_separator;
 
