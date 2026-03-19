@@ -4,7 +4,7 @@ An ISO Extended Backus-Naur Form (EBNF) specification for calculations and
 assignment expressions.
 
 - Author: Ethan Kletschke
-- Version: `0.0.5`
+- Version: `0.0.6`
 - Developed on: Ubuntu (WSL2)
 - License: MIT
 
